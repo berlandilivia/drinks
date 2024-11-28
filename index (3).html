@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedido Confirmado - Escolha o Modo de Pagamento</title>
+    <style>
+        .navbar {
+            background-color:  #bd7c51;
+            overflow: hidden;
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+        }
+        .navbar a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .order-details {
+            margin-top: 30px;
+            text-align: left;
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .order-details h2 {
+            color: #141313;
+        }
+        .order-details table {
+            color: #141313;
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        .order-details table, th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .order-details th, td {
+            padding: 10px;
+        }
+        .payment-options {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .payment-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            display: inline-block;
+            width: 180px;
+            text-align: center;
+        }
+        .payment-button:hover {
+            background-color: #45a049;
+        }
+        .payment-button.alt {
+            background-color: #2196F3;
+        }
+        .payment-button.alt:hover {
+            background-color: #1e88e5;
+        }
+        .icon {
+            font-size: 50px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #141313;
+        }
+        footer {
+    background-color: #bd7c51;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="liviabe.html">Inicio</a>
+        <a href="liviabe2.html">Cardápio</a>
+        <a href="liviabe3.html">Pagamento</a>
+        <a href="liviabe4.html">Contato</a>
+    </div>
+
+<div class="container">
+    <div class="icon">
+        <span>&#9989;</span>
+    </div>
+    <h1>Pedido Confirmado</h1>
+    <p>Seu pedido foi confirmado com sucesso!<br> Confira os detalhes do seu pedido:</p> 
+
+    <div class="order-details">
+        <h2>Detalhes do Pedido</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Caipirinha</td>
+                    <td>2</td>
+                    <td>R$ 20,00</td>
+                </tr>
+                <tr>
+                    <td>Virgem de Morango</td>
+                    <td>1</td>
+                    <td>R$ 18,00</td>
+                </tr>
+                <tr>
+                    <td>Mojito</td>
+                    <td>1</td>
+                    <td>R$ 12,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Total: R$ 90,00</strong></p>
+    </div>
+
+    <div class="payment-options">
+        <a href="html" class="payment-button">Pagar</a>
+      
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 BerlandiBar. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
+
